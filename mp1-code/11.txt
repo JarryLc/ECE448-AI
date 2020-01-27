@@ -1,0 +1,56 @@
+    start = State(maze.getStart(), 0, -1)
+    priqueue = [start]
+    link = [start]
+    explored = [maze.getStart()]    
+
+def addPriqueue(f):
+        index = 0
+        while index in range(len(priqueue)):
+            if (priqueue[index].gs + geths(priqueue[index].position)) > (f.gs + geths(f.position)):
+                break
+            index = index + 1
+        priqueue.insert(index, f)
+
+    def indexPriqueue(pos):
+        index = 0
+        while index in range(len(priqueue)):
+            if priqueue[index].position == pos:
+                return index
+            index = index + 1
+        return -1
+
+    def indexLink(pos):
+        index = 0
+        while index in range(len(link)):
+            if link[index].position == pos:
+                return index
+            index = index + 1
+        return -1
+
+    while priqueue[0].position != objective[0]:
+        neighbors = maze.getNeighbors(priqueue[0].position[0], priqueue[0].position[1])
+        for indexN in range(len(neighbors)):
+            if neighbors[indexN] not in explored:
+                explored.append(neighbors[indexN])
+                frontier = State(neighbors[indexN], priqueue[0].gs + 1, priqueue[0].position)
+                addPriqueue(frontier)
+                link.append(frontier)
+            else:
+                updateIndex = indexPriqueue(neighbors[indexN])
+                # if the update state is in the priqueue, then update gs directly
+                if updateIndex != -1:
+                    if priqueue[updateIndex].gs > priqueue[0].gs + 1:
+                        frontier = State(neighbors[indexN], priqueue[0].gs + 1, priqueue[0].position)
+                        priqueue.pop(updateIndex)
+                        addPriqueue(frontier)
+                        indexL = indexLink(neighbors[indexN])
+                        link.pop(indexL)
+                        link.append(frontier)
+                else:
+                    indexL = indexLink(neighbors[indexN])
+                    if link[indexL].gs > priqueue[0].gs + 1:
+                        frontier = State(neighbors[indexN], priqueue[0].gs + 1, priqueue[0].position)
+                        addPriqueue(frontier)
+                        link.pop(indexL)
+                        link.append(frontier)
+        priqueue.pop(0)

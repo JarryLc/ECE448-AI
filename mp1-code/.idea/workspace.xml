@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c215bdad-1f2e-47bb-bec8-e347eb95b355" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ProjectId" id="1QXK0HzUQoLnhEfgDXmHg50NyjH" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="F:/Undergrad Final/AI-search-algorithm-with-PBFT-" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\ECE Grad FALL2019\ECE 448\mp1-code\template" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c215bdad-1f2e-47bb-bec8-e347eb95b355" name="Default Changelist" comment="" />
+      <created>1567911276374</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567911276374</updated>
+      <workItem from="1567911285474" duration="6892000" />
+      <workItem from="1567961215740" duration="30297000" />
+      <workItem from="1568056622180" duration="24857000" />
+      <workItem from="1568168411522" duration="13252000" />
+      <workItem from="1568182004157" duration="959000" />
+      <workItem from="1568252043570" duration="14761000" />
+      <workItem from="1568308302251" duration="11718000" />
+      <workItem from="1568324722067" duration="11723000" />
+      <workItem from="1568342413835" duration="72000" />
+      <workItem from="1568504318506" duration="138000" />
+      <workItem from="1568741288274" duration="976000" />
+      <workItem from="1568766873389" duration="55000" />
+      <workItem from="1568767621366" duration="854000" />
+      <workItem from="1568934231501" duration="1353000" />
+      <workItem from="1568943122059" duration="21000" />
+      <workItem from="1569005363947" duration="1415000" />
+      <workItem from="1569015144988" duration="4810000" />
+      <workItem from="1577911650679" duration="577000" />
+      <workItem from="1577912269463" duration="252000" />
+      <workItem from="1577912541573" duration="17000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
